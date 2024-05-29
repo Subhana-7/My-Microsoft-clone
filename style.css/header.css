@@ -1,0 +1,90 @@
+
+/* Style for the header */
+.header {
+  height: 54px; /* Set the height */
+  display: flex; /* Use flexbox layout */
+  flex-direction: row; /* Set direction to row */
+  top: 0; /* Position at the top */
+  justify-content: space-between; /* Space items evenly */
+}
+
+/* Style for the left section of the header */
+.left {
+  display: flex; /* Use flexbox layout */
+  flex-direction: row; /* Set direction to row */
+  align-items: center; /* Align items in the center */
+  margin-right: 520px; /* Add right margin */
+}
+
+/* Style for the Microsoft icon */
+.microsoft-icon {
+  height: 22px; /* Set the height */
+  margin-left: 130px; /* Add left margin */
+}
+
+/* Style for div elements inside the left section */
+.left div {
+  font-family: 'Segoe UI', sans-serif; /* Set the font family */
+  font-size: 12px; /* Set the font size */
+  font-weight: 100; /* Set the font weight */
+  padding-left: 28px; /* Add left padding */
+}
+
+/* Style for the right section of the header */
+.right {
+  display: flex; /* Use flexbox layout */
+  flex-direction: row; /* Set direction to row */
+  right: 0; /* Position to the right */
+  align-items: center; /* Align items in the center */
+  margin-right: 70px; /* Add right margin */
+}
+
+/* Style for div elements inside the right section */
+.right div {
+  font-family: 'Segoe UI', sans-serif; /* Set the font family */
+  font-size: 12px; /* Set the font size */
+  font-weight:100; /* Set the font weight */
+  width: 98px; /* Set the width */
+}
+
+/* Style for the search text and icon container */
+.search-text-and-icon {
+  position: relative; /* Set position to relative */
+}
+
+/* Style for the search icon */
+.search-icon {
+  height: 18px; /* Set the height */
+  position: absolute; /* Position it absolutely within its container */
+  right: 304px; /* Position 304px from the right */
+  top: 18px; /* Position 18px from the top */
+}
+
+/* Style for the cart and icon container */
+.cart-and-icon {
+  position: relative; /* Set position to relative */
+  padding-right: -30px; /* Add right padding (negative value is unusual) */
+}
+
+/* Style for the cart icon */
+.cart-icon {
+  position: absolute; /* Position it absolutely within its container */
+  height: 16px; /* Set the height */
+  right: 52px; /* Position 52px from the right */
+  top: 0px; /* Position 0px from the top */
+}
+
+/* Style for the user profile icon container */
+.user-profile-icon {
+  position: relative; /* Set position to relative */
+}
+
+/* Style for the profile icon */
+.profile-icon {
+  height: 30px; /* Set the height */
+  position: absolute; /* Position it absolutely within its container */
+  right: 36px; /* Position 36px from the right */
+  top: -10px; /* Position -10px from the top */
+  left: 36px; /* Position 36px from the left */
+  border-radius: 20px; /* Set the border radius */
+}

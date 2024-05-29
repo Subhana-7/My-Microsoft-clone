@@ -1,0 +1,61 @@
+
+/* Define the 'Segoe UI' font family with different formats for compatibility */
+@font-face {
+  font-family: 'Segoe UI';
+  src: url('SegoeUI.eot'); /* For IE compatibility */
+  src: local('Segoe UI'), local('SegoeUI'),
+      url('SegoeUI.eot?#iefix') format('embedded-opentype'), /* IE specific fix */
+      url('SegoeUI.woff2') format('woff2'), /* Modern browsers */
+      url('SegoeUI.woff') format('woff'), /* Modern browsers */
+      url('SegoeUI.ttf') format('truetype'); /* Safari, Android, iOS */
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Define the 'Segoe UI SemiBold' font family */
+@font-face {
+  font-family: 'Segoe UI';
+  src: url('SegoeUI-SemiBold.eot'); /* For IE compatibility */
+  src: local('Segoe UI Semibold'), local('SegoeUI-SemiBold'),
+      url('SegoeUI-SemiBold.eot?#iefix') format('embedded-opentype'), /* IE specific fix */
+      url('SegoeUI-SemiBold.woff2') format('woff2'), /* Modern browsers */
+      url('SegoeUI-SemiBold.woff') format('woff'), /* Modern browsers */
+      url('SegoeUI-SemiBold.ttf') format('truetype'); /* Safari, Android, iOS */
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* Define the 'Segoe UI Light' font family */
+@font-face {
+  font-family: 'Segoe UI';
+  src: url('SegoeUI-Light.eot'); /* For IE compatibility */
+  src: local('Segoe UI Light'), local('SegoeUI-Light'),
+      url('SegoeUI-Light.eot?#iefix') format('embedded-opentype'), /* IE specific fix */
+      url('SegoeUI-Light.woff2') format('woff2'), /* Modern browsers */
+      url('SegoeUI-Light.woff') format('woff'), /* Modern browsers */
+      url('SegoeUI-Light.ttf') format('truetype'); /* Safari, Android, iOS */
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Define the 'Segoe UI Bold' font family */
+@font-face {
+  font-family: 'Segoe UI';
+  src: url('SegoeUI-Bold.eot'); /* For IE compatibility */
+  src: local('Segoe UI Bold'), local('SegoeUI-Bold'),
+      url('SegoeUI-Bold.eot?#iefix') format('embedded-opentype'), /* IE specific fix */
+      url('SegoeUI-Bold.woff2') format('woff2'), /* Modern browsers */
+      url('SegoeUI-Bold.woff') format('woff'), /* Modern browsers */
+      url('SegoeUI-Bold.ttf') format('truetype'); /* Safari, Android, iOS */
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Set the body margin and padding to create a consistent layout */
+body {
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
